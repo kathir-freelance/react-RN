@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div ~ p {
+  background-color: yellow;
+}
+div~h2{
+	color:grey;
+}
+</style>
+</head>
+<body>
+
+<h2>General Sibling Selector</h2>
+
+<p>The general sibling selector (~) selects all elements that are next siblings of a specified element.</p>
+
+<p>Paragraph 1.</p>
+
+<div>
+  <p>Paragraph 2.</p>
+</div>
+<h2>General Sibling Selector</h2>
+<h2>General Sibling Selector</h2>
+<h2>General Sibling Selector</h2>
+<h1>General Sibling Selector</h1>
+<p>Paragraph 3.</p>
+<p>Paragraph 4.</p>
+<span>hiiii</span>
+<p>Paragraph 5.</p>
+<code>Some code.</code>
+<p>Paragraph 6.</p>
+<h2>General Sibling Selector</h2>
+</body>
+</html>
+
+
