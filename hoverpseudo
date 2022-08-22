@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:hover{
+	background-color:yellow;
+}
+
+div:hover{
+	background-color:red;
+}
+div#only:hover{
+	color:yellow;
+}
+a:active{
+	color:teal;
+}
+
+</style>
+</head>
+<body>
+
+	<a href="#"> click here</a>
+    <div> hiii 1</div>	
+    <div id="only"> hiii 2</div>	
+    <div> hiii 3</div>	
+</body>
+</html>
+
+
