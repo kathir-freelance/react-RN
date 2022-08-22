@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p::first-letter {
+  font-size: 100px;
+  color: #8A2BE2;
+}
+</style>
+</head>
+<body>
+
+<h1>Demo of the ::first-letter selector</h1>
+
+<p>My name is Donald.</p>
+<p>I live in Duckburg.</p>
+<p>My best friend is Mickey.</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p:first-child {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<p>This paragraph is the first child of its parent (body).</p>
+<p>This paragraph is not the first child of its parent (body).</p>
+
+<div>
+  <p>This paragraph is the first child of its parent (div).</p>
+  <p>This paragraph is not the first child of its parent (div).</p>
+</div>
+
+</body>
+</html>
