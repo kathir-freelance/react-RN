@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div>p {
+ // background-color: yellow;
+}
+div.only>p {
+  background-color: grey;
+}
+</style>
+</head>
+<body>
+<div class="only">
+	<p>only div</p>
+    <section>
+    	<p>nested div p</p>
+        <section>
+    		<p>nested section p</p>
+    	 </section>   	
+     </section>   	
+</div>
+
+<div>
+	<p>another div</p>
+    <section>
+    	<p>nested div p</p>
+        <section>
+    		<p>nested section p</p>
+    	 </section>   	
+     </section>   	
+</div>
+
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section>
+  	<p>Paragraph 3 in the div.</p>
+    <span> hi</span>
+    <div>
+    	<p>inside p</p>
+    </div>
+  </section>
+</div>
+
+<p>Paragraph 4. Not in a div.</p>
+<p>Paragraph 5. Not in a div.</p>
+
+</body>
+</html>
+
+
