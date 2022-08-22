@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+input:default {
+  box-shadow: 0 0 1px 1px red;
+}
+input:disabled{
+	background:yellow;
+}
+input:read-only{
+	background:yellow;
+}
+</style>
+</head>
+<body>
+
+<h1>The default Selector</h1>
+<p>The :default selector selects the default form element in a group of related elements.</p>
+<p>The "male" radio button is checked by default:</p>
+
+<form action="">
+<input type="text" disabled/>
+<input type="text" value="hi" readonly/>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other <br>
+  <input type="checkbox" name="course" value="java" checked> java<br>
+</form>
+
+<p>The :default selector is not supported in Internet Explorer 11 and earlier versions.</p>
+
+</body>
+</html>
