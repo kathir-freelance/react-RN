@@ -3,5 +3,5 @@
 .class1 .class2
 
 Grouping Selectors
-
-::after  ::before :empty
+  
+::after  ::before :empty ::first-line  	a:link   p:nth-last-child(2) p:nth-of-type(2) ::placeholder :required ::selection :visited
